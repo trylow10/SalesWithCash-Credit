@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid blue;
+  padding: 1em;
+  background-color: rgba(255, 0, 0, 0.664);
+}
+button {
+  background-color: red;
+  padding: 0.5em;
+  color: white;
+  font-size: 1rem;
+  border-radius: 65px;
+  width: 150px;
+  border-color: red;
+}
+button:hover {
+  transition: 0.3s ease-in-out;
+  background-color: rgb(212, 13, 13);
+}
+.mainbody {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d7e8fa;
+  height: 580px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.salesmgnt.creditmgnt.cashmgnt {
+  padding: 1em;
+  background-color: white;
+  font-size: 2rem;
+}

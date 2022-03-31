@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    box-shadow: 0 0 4px black;
+}
+/* .store__title{
+} */
+.store__title a{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    width: 20%;
+}
+input{
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+#search_ind,#search__ind{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 7px ;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    font-weight: 500;
+}
+#search_ind:hover,#search__ind:hover{
+    transition: 0.4s ease-out;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    cursor: pointer;
+}
+#search__ind{
+    width: 200px;
+}
+table{
+    width: 100%;
+    margin-top: 1em;
+    border-color: black;
+}
+table th{
+    font-size: 1.3rem;
+    padding: 5px;
+}
+table td{
+    text-align: center;
+}
+#clear_button{
+    background: red;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+#clear_button:hover{
+    background-color: rgb(204, 6, 6);
+    transition: 0.4s ease-out;
+}
+#update_button{
+    background:rgb(10, 153, 10);
+    width: 100%;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+#update_button:hover{
+    background-color: rgb(12, 129, 12);
+    transition: 0.4s ease-out;
+}
