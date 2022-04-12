@@ -14,7 +14,7 @@ $sql="SELECT * FROM admin where username='$username' and password='$password'";
     if (mysqli_num_rows($result)!=0)
 
     {
-header("Location:Home.php");
+header("Location:cashhome.php");
 exit;
 
     }

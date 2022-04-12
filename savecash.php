@@ -24,13 +24,17 @@ if($amount!=0){
 $query="INSERT INTO customer(Name,Address,PhoneNumber,Amount) Values('$name','$address','$phone','$amount')";
     $res1 = mysqli_query($con,$query);
     $res = mysqli_query($con,$sql2);
-    echo "credit";
+    echo '<script>confirm("Are you sure?")</script>';
+    header("location:cashhome.php");
+    
 
 }
 else{
 
     $res = mysqli_query($con,$sql2);
-    echo "cash";
+    echo '<script>confirm("Are you sure")</script>';
+    header("location:cashhome.php");
+    
 }
 
 
